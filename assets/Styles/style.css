@@ -1,0 +1,98 @@
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* VARIABLES DE COLORES GLOBAL */
+:root{
+--White:hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue:hsl(220, 15%, 55%);
+--Darkblue:hsl(218, 44%, 22%);
+}
+
+/* START BODY */
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #d5e1ef;
+}
+
+.qrHijo{
+    /* width: 50px; */
+  /* height: 50px; */
+  background-color: var(--White);
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 30%;
+  /* left: 50%; */
+  margin: -25px 0 0 -25px;
+  border-radius: 18px;
+  width: 312px;
+}
+
+.contedqr {
+    text-align: center;
+    padding-top: 32px;
+    width: 352px;
+    padding-bottom: 12px;
+   
+}
+
+.image-qr{
+    position: relative;
+    top: -12px;
+    display:block;
+margin:auto;
+border-radius: 12px;
+}
+
+.titulo {
+    padding-top: 12px;
+   
+    /* font-weight: 800; */
+}
+
+
+.Titleqr{
+    font-weight: 700;
+    color:var(--Darkblue);
+    font-size: 20px;
+}
+
+.text {
+    padding: 12px;
+}
+
+.Textqr{
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--Grayishblue);
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+/* Responsive */
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .qrHijo {
+        /* width: 50px; */
+        /* height: 50px; */
+        background-color: var(--White);
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        margin: -25px 0 0 -25px;
+        border-radius: 18px;
+        width: 312px;
+    }
+    
+  }
